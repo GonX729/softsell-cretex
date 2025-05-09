@@ -1,0 +1,20 @@
+<!-- Chat Widget Component for SoftSell -->
+<div id="chat-widget" class="chat-widget">
+  <div class="chat-header">
+    <span>💬 SoftSell Chat</span>
+    <button id="chat-close" aria-label="Close chat">&times;</button>
+  </div>
+  <div class="chat-body" id="chat-body">
+    <div class="chat-message bot">Hi! 👋 How can I help you today?</div>
+    <div class="chat-presets">
+      <button class="chat-preset">How do I sell my license?</button>
+      <button class="chat-preset">What types of licenses can I sell?</button>
+      <button class="chat-preset">How long does payment take?</button>
+    </div>
+  </div>
+  <form class="chat-input-area" id="chat-form">
+    <input type="text" id="chat-input" placeholder="Type your question..." autocomplete="off" />
+    <button type="submit">Send</button>
+  </form>
+</div>
+<button id="chat-open" class="chat-open-btn" aria-label="Open chat">💬</button>

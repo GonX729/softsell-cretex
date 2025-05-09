@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftSell - Resell Your Software Licenses</title>
+    <meta name="description" content="SoftSell is the easiest way to resell your unused software licenses. Get instant valuation, fast payment, and secure transactions.">
+    <meta name="keywords" content="software resale, license resale, sell software, sell licenses, SoftSell, cloud license, software marketplace, IT asset recovery">
+    <meta name="author" content="SoftSell">
+    <meta property="og:title" content="SoftSell - Resell Your Software Licenses">
+    <meta property="og:description" content="Turn unused software licenses into cash quickly and securely with SoftSell.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/G.SOFT.png">
+    <meta property="og:url" content="https://softsell.example.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SoftSell - Resell Your Software Licenses">
+    <meta name="twitter:description" content="Turn unused software licenses into cash quickly and securely with SoftSell.">
+    <meta name="twitter:image" content="img/G.SOFT.png">
+    <meta name="theme-color" content="#1a73e8">
+    <link rel="icon" type="image/png" href="img/G.SOFT.png">
+    <link rel="stylesheet" href="styles.css">
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark/light mode">🌙</button>
+</head>
+<body>
+    <header class="navbar">
+        <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <button id="sidebar-close" class="sidebar-close">&times;</button>
+        <nav>
+            <ul class="index-bar">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section id="hero" class="hero">
+            <h1>Resell Your Software Licenses with Ease</h1>
+            <p>Turn unused software licenses into cash quickly and securely.</p>
+            <button class="cta" id="open-quote-modal">Get a Quote</button>
+        </section>
+
+        <!-- Modal for Get a Quote -->
+        <div id="quote-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal" id="close-quote-modal">&times;</span>
+                <h2>Get a Quote</h2>
+                <form id="quote-form">
+                    <label for="quote-name">Name</label>
+                    <input type="text" id="quote-name" name="name" required>
+                    <label for="quote-email">Email</label>
+                    <input type="email" id="quote-email" name="email" required>
+                    <label for="quote-license">License Type</label>
+                    <select id="quote-license" name="license" required>
+                        <option value="">Select a type</option>
+                        <option value="software">Software</option>
+                        <option value="cloud">Cloud</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="quote-message">Message</label>
+                    <textarea id="quote-message" name="message" required></textarea>
+                    <button type="submit" class="cta">Submit</button>
+                </form>
+                <div id="quote-success" style="display:none;color:green;margin-top:1rem;">Thank you! We'll get back to you soon.</div>
+            </div>
+        </div>
+
+        <section id="how-it-works" class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <button class="step step-btn">
+                    <h3>Upload License</h3>
+                    <p>Provide details of your software license.</p>
+                </button>
+                <button class="step step-btn">
+                    <h3>Get Valuation</h3>
+                    <p>Receive a fair market valuation instantly.</p>
+                </button>
+                <button class="step step-btn">
+                    <h3>Get Paid</h3>
+                    <p>Receive payment securely and quickly.</p>
+                </button>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="why-choose-us">
+            <h2>Why Choose Us</h2>
+            <div class="why-cards">
+                <div class="why-card">
+                    <div class="why-quote-mark">&#10077;</div>
+                    <h3>Trusted Platform</h3>
+                    <p>Thousands of satisfied customers worldwide.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-quote-mark">&#10077;</div>
+                    <h3>Fast Process</h3>
+                    <p>Get your valuation and payment in no time.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-quote-mark">&#10077;</div>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is here to help you anytime.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"SoftSell made it so easy to sell my unused licenses. Highly recommend!"</p>
+                <h4>Jaydeep Sharma</h4>
+                <p>IT Manager, Techno-Howards</p>
+            </div>
+            <div class="testimonial">
+                <p>"It's a great feeling after dealing with SoftSell. Had the best experience for my unused licenses."</p>
+                <h4>John Smith</h4>
+                <p>CEO, Info-Innovate Pvt. LTD.</p>
+            </div>
+            <div class="testimonial">
+                <p>"The process was fast and transparent. I got paid within a day!"</p>
+                <h4>Priya Kundra</h4>
+                <p>Freelancer, Mumbai</p>
+            </div>
+            <div class="testimonial">
+                <p>"Excellent support team. They answered all my questions promptly."</p>
+                <h4>Sohan Prajapat</h4>
+                <p>Operations, SoftBridge</p>
+            </div>
+            <div class="testimonial">
+                <p>"I was skeptical at first, but SoftSell delivered as promised. Will use again!"</p>
+                <h4>Sara Kim</h4>
+                <p>Product Manager, NextGen Apps</p>
+            </div>
+            <div class="testimonial">
+                <p>"Best resale platform! The valuation was fair and the payment was instant."</p>
+                <h4>Nicholas Enmity</h4>
+                <p>CTO, Securify</p>
+            </div>
+        </section>
+
+        <section id="contact-form" class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="lead-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" required>
+
+                <label for="license-type">License Type</label>
+                <select id="license-type" name="license-type" required>
+                    <option value="">Select a type</option>
+                    <option value="software">Software</option>
+                    <option value="cloud">Cloud</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/G.SOFT.png" alt="SoftSell Logo" class="footer-logo-img">
+                <span class="footer-brand">SoftSell</span>
+            </div>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#why-choose-us">Why Choose Us</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact-form">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" title="Twitter" class="footer-social-icon">&#x2709</a>
+                <a href="#" title="LinkedIn" class="footer-social-icon">&#x2709</a>
+                <a href="#" title="Email" class="footer-social-icon">&#x2709;</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SoftSell. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Widget Component -->
+    <div id="chat-widget-container"></div>
+    <script>
+    // Dynamically load chat widget HTML
+    fetch('components/chat-widget.html')
+      .then(r => r.text())
+      .then(html => {
+        document.getElementById('chat-widget-container').innerHTML = html;
+      });
+    </script>
+
+    <script src="script.js"></script>
+    <script>
+        // Sidebar toggle
+        document.getElementById('sidebar-toggle').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('open');
+        });
+        document.getElementById('sidebar-close').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.remove('open');
+        });
+        // Modal logic
+        const quoteModal = document.getElementById('quote-modal');
+        document.getElementById('open-quote-modal').onclick = function() {
+            quoteModal.style.display = 'block';
+        };
+        document.getElementById('close-quote-modal').onclick = function() {
+            quoteModal.style.display = 'none';
+        };
+        window.onclick = function(event) {
+            if (event.target === quoteModal) {
+                quoteModal.style.display = 'none';
+            }
+        };
+        // Handle form submit
+        document.getElementById('quote-form').onsubmit = async function(e) {
+            e.preventDefault();
+            const data = {
+                name: document.getElementById('quote-name').value,
+                email: document.getElementById('quote-email').value,
+                license: document.getElementById('quote-license').value,
+                message: document.getElementById('quote-message').value
+            };
+            try {
+                const res = await fetch('/api/quote', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                if (res.ok) {
+                    document.getElementById('quote-success').style.display = 'block';
+                    document.getElementById('quote-form').reset();
+                } else {
+                    alert('Submission failed.');
+                }
+            } catch {
+                alert('Submission failed.');
+            }
+        };
+    </script>
+</body>
+</html>
