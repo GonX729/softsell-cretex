@@ -1,3 +1,3 @@
 # Components
 
-This folder contains reusable UI components for the SoftSell website.
+This folder contains reusable AI components like CHATBOT for the SoftSell website.
